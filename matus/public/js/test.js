@@ -10,7 +10,7 @@ for (var i=0;i<mydata.length;i++){
 
   if(mydata[i].label.length==7){
        mydatasept.push(mydata[i].label);
-  }   
+  }
 }
 
 
@@ -22,6 +22,21 @@ for(var i=0;i<10;i++){
      console.log(mots[i]);
 }
 
+}
+
+function RemplacerCaractere(mot){
+    return  mot.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+}
+function InitialiserParametre(){
+    tps_partie=10;
+    tps_mots=20;
+}
+function InitialiserSolution(){
+    solution="";
+}
+function InitialiserSaisirMots(){
+    $("#text").css('border-color','red');
 }
 
 
