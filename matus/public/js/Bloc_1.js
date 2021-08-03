@@ -39,6 +39,10 @@ function InitialiserSolution(){
     solution="";
 }
 
+function InitialiserSaisirMots(){
+    $("#text").css('border-color','red');
+}
+
 
 
 
