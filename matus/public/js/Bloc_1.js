@@ -28,16 +28,6 @@ function RemplacerCaractere(mot){
     return  mot.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
 }
-function InitialiserParametre(){
-    tps_partie=10;
-    tps_mots=20;
-}
-function InitialiserSolution(){
-    solution="";
-}
-function InitialiserSaisirMots(){
-    $("#text").css('border-color','red');
-}
 
 
 
