@@ -30,6 +30,11 @@ function RemplacerCaractere(mot){
 }
 
 
+function InitialiserParametre(){
+    tps_partie=10;
+    tps_mots=20;
+}
+
 
 
 
