@@ -35,6 +35,10 @@ function InitialiserParametre(){
     tps_mots=20;
 }
 
+function InitialiserSolution(){
+    solution="";
+}
+
 
 
 
